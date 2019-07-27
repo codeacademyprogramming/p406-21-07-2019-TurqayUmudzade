@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(202, 200, 200);
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    
+}
+
+.carousel{
+    background-color: white;
+    border: 2px solid black;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider{
+    height: 100%;
+    display: flex;
+    width: 300%;
+    
+    transition: all 0.3s;
+   
+}
+
+
+.slider section{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls .arrow{
+    position: absolute;
+    bottom: 5%;
+    cursor: pointer;
+}
+
+.arrow.left{
+    left: 45%;
+}
+
+.arrow.right{
+    right: 45%;
+}
+
+img{
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 100%;
+    position: relative;
+    left:40%;
+}
+
+p{
+    position: relative;
+    
+    color: rgb(146, 146, 146);
+}
+
+h3{
+    position: relative;
+    
+
+}
+
+
