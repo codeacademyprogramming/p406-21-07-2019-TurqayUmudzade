@@ -8,7 +8,7 @@ var index=0;
 ArrowR.addEventListener('click',function(){
   if(index<2)
     index++;
-    slider.style.transform='translate( '+ (index)* -(100/3) +'%)';
+    setInterval(function(){slider.style.transform='translate( '+ (index)* -(100/3) +'%)'; }, 300);
 
 });
 
@@ -16,6 +16,6 @@ ArrowL.addEventListener('click',function(){
     if(index>0)
       index--;
       console.log(index);
-      slider.style.transform='translate( '+ (index)* -(100/3) +'%)';
+      setInterval(function(){slider.style.transform='translate( '+ (index)* -(100/3) +'%)'; }, 300);
   
   });
